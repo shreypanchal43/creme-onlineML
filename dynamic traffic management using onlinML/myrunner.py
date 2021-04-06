@@ -203,6 +203,6 @@ if __name__ == "__main__":
     model1 = get_model()
     generate_routefile()
     traci.start([sumoBinary, "-c", "cross.sumocfg", "--tripinfo-output", "tripinfo.xml"])
-    run()
+    run(model1)
 
 
